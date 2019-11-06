@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amina</title>
+
+<style type="text/css">
+
+body {background:orange;}
+header{background:white;
+       height:45px;
+       width:150px;
+       font-size:20px;
+       box-shadow:5px 5px 10px;}
+header b{color:crimson;
+        font-size:25px;
+        font-family:times;}
+b sub{color:deeppink;
+      font-size:10px;
+      position:absolute;
+      top:40px;
+      left:100px;}
+hr{height:3px;
+background:lightgreen;}
+#hd{width:150px;
+height:45px;
+font-size:40px;
+position:absolute;
+left:160px;
+top:6px;
+text-decoration:overline;
+font-variant:small-caps;
+background:-webkit-linear-gradient(top right,darkmagenta,coral);
+border-bottom:5px solid black;
+border-top:5px solid black;
+color:cornsilk;}
+#lv1{background:red;
+    height:50px;
+    width:100px;
+    border-radius:50px 50px 0px 0px;}
+    #lv2{background:red;
+    height:50px;
+    width:100px;
+    border-radius:50px 50px 0px 0px;
+    position:absolute;
+    top:0px;
+    left:100px;}
+    #lv3{background:red;
+    height:100px;
+    width:200px;
+    border-radius:0px 0px 100px 100px;}
+#lv{background:gray;
+   position:absolute;
+   top:150px;
+   left:50px;
+   border:3px solid black;
+   border-radius:30px;
+   box-shadow:0px 0px 10px 10px gray;
+   opacity:5px;}
+div b{color:black;
+      font-family:cursive;
+      font-size:27px;
+      font-weight:bolder;
+      text-align:center;}
+#bd{
+     overflow:scroll;
+     position:absolute;
+     opacity:0.8;}
+#bd h3{color:blue;
+      background:pink;
+      font-family:times;}
+p {color:black;
+   opacity:0.9;
+   background:white;
+   text-indent:20px;
+   border:3px solid black;
+   border-radius:10px 0px 10px;}
+button {background:coral;
+        color:white;
+        border:1px solid black;
+        border-radius:10px;
+        width:75px;}
+</style>
+
+
+</head>
+<body>
+<header>
+<b>Pure Love <sub>AMINA</sub></b></header>
+<marquee id="hd">I Love you <b>AMINA</b>,please love me too
+</marquee>
+<hr>
+
+<div id="lv">
+<div id="lv1"></div><div id="lv2"></div>
+<div id="lv3">
+<b><i>AMINA  &   JAFAR</i></b></div>
+
+</div>
+
+<div id="bd">
+<h3>Introduction</h3>
+<p>Assalamu Alaikum, I create this site 
+just because i want to impress <b style="color:purple;" >AMINA</b>
+.....I can't forget her in my life..<br>
+Cause she is <mark>My Love</mark>
+<br>
+
+<i>She said to me "aslm ba hello ba" Those words change my way of life.....
+i like texting her.....
+
+
+</p>
+<button onclick="alert('Jafar really Loves Amina')">click me 1</button><button onclick="alert('But do she Loves him?')">click me 2</button><button onclick="alert('the answer is from her')">click me 3</button><button onclick="alert('Her answer is needed')">click me 4</button>
+
+</div>
+</body>
+</html>
